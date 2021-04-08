@@ -1,0 +1,388 @@
+Source,ID,Description,Derived Data Needs,Data Content
+NETCCN Phase 1 Task 2 MEC/MVP,4,"The NETCCN system will provide a means to generate timely communication (e.g. alerts, bulletins, etc.) to all users (broadcast) or to specific users, as appropriate","User alerts, bulletins, messages to all or specific users (patients and providers) to include important changes in patient status, system notifications, etc.","Alerts, Bulletins, Messages (patient alerts, system alerts)"
+NETCCN Phase 1 Task 2 MEC/MVP,4,"The NETCCN system will utilize alerts and bulletins to highlight important information in the system (e.g. notifications, important changes in patient status, etc.)","User alerts, bulletins, messages to all or specific users (patients and providers) to include important changes in patient status, system notifications, etc.","Alerts, Bulletins, Messages (patient alerts, system alerts)"
+NETCCN Phase 2 RPP,17,"f. Enhancements to NETCCN system alerts, bulletins, and other timely communications (e.g. system clinical practice guidelines, information about new system capabilities, urgent queries, etc.) for users, as appropriate","type of system communication (alert, bulletin, etc.) and recipient(s) of alert.","Alerts, Bulletins, Messages (patient alerts, system alerts)"
+NETCCN Phase 2 RPP,Task 2A,• Provide alerts to designated and authorized team members as required.,"alert type, alert distribution, alert content","Alerts, Bulletins, Messages (patient alerts, system alerts)"
+NETCCN Phase 2 RPP,Task 2B,"• Provide continuous, automated alert reporting to designated and authorized personal",,"Alerts, Bulletins, Messages (patient alerts, system alerts)"
+NETCCN Phase 2 RPP,Task 3A,"• Develop automatic alert features for critical events (patient death, local facility census capacity thresholds, remote expert provider thresholds, etc.)","automated alert info - threshold for generating alert, type of alert, where alert was generated","Alerts, Bulletins, Messages (patient alerts, system alerts)"
+NETCCN Phase 2 RPP,Task 2A,• Provide daily reports of clinical activities,daily report of clinical activities ,Clinical Activity Info
+NETCCN Phase 2 RPP,Task 2B,• Provide daily reports of clinical activities through a data visualization portal,,Clinical Activity Info
+NETCCN Phase 2 RPP,18,"g. Integration of training and educational materials to frontline clinicians, being asked to provide care outside scope of practice due to disaster/emergency conditions","Similar to e above - want to know the type of training, version of training materials used, method of deliery, feedback on training.",Clinical Training and Education Info
+NETCCN Phase 2 RPP,16,"e. Integration of clinical decision support features that are specifically focused on lay and novice care providers working by necessity outside their scope of practice.  These enhancements can be achieved by numerous means, including, but not limited to, novel on-demand training, synchronous and asynchronous coaching and AI support features (e.g. chatbots et al.)","type of training (synchrononous/asynchronous coaching, chatbot, etc). Review/survey of training effectiveness (user feedback)","Clinical Training and Education Info
+
+System Usability Info (User Feedback)
+
+System Utilization Info (use of features)"
+NETCCN Phase 2 RPP,3,provide access to expert consultation that increase capabilities of local caregivers and consequently increased local capacity to manage severe COVID-19 illness and improve patient outcomes.,"Before and during metrics - want to know initial capabilities (baseline) and then how the system was able to increase capacity (# caregivers, # beds, # experts before and during).","Hospital /facility capacity information (baseline without NETCCN)
+
+Resource capacility, utilization, and management"
+TiDE Learning Accelerator MPP,Components,"Funding for NETCCN performers to participate in local, regional and national-level telecritical
+care simulation events.",simulation event data and information,NETCCN Deployment Event Info (includes exercises)
+NETCCN Phase 1 Task 2 MEC/MVP,4,"The NETCCN system will accommodate patient “transfer” from one “Virtual Ward” to another.
+The NETCCN system will allow remote expert users to identify and select from multiple “Virtual Wards”, the local care providers associated with those wards, and the patients assigned to them.
+The NETCCN system will provide continuity of care (locally and remotely) from anywhere to anywhere","Patient and caretaker transfers between virtual wards.
+Continuity of care - tracking patient movement across virtual wards.",Patient and Clinical Flow
+NETCCN Phase 1 Task 2 MEC/MVP,13,The NETCCN system provided a means to track patient movement and flow that is documented and demonstrated,Track patient movement and flow (from virtual wards - home to inpatient to home).,Patient and Clinical Flow
+NETCCN Phase 1 Task 2 MEC/MVP,4,"NETCCN System will allow both local care givers (e.g. physicians, nurses, advanced practice providers, emergency medical technicians, etc.). AND remote experts to establish multiple “Virtual Wards” and associate patients to those virtual wards and associate care teams/care team members to appropriate patients:",Patient association to virtual ward. Care team assocation to virtual ward and patients.,"Patient and Clinical Flow
+
+Resource capacity, utilization, and management
+"
+NETCCN Phase 1 Task 2 MEC/MVP,4,"The NETCCN system will provide a means to collect and export common data registry elements and anonymized patient information (e.g. vital signs) for future analytics. At a minimum, these data registry elements will include the Society of Critical Care Medicine (SCCM) Case Report Forms (CRF) for COVID and All Hazards criteria, (to be provided by the government)","Common data registry elements, anonymized patient information (e.g. vitals) - SCCM CRF for COVID and All Hazards",Patient Encounter and Health Data
+NETCCN Phase 1 Task 2 MEC/MVP,5,NETCCN will provide for documentation of care at both the local caregiver and remote expert levels,Collect all info captured by local caregiver (which may be a family member) and providers/clinicians,Patient Encounter and Health Data
+NETCCN Phase 1 Task 2 MEC/MVP,7,NETCCN mobile app provides a means to collect survey data from appropriate end users,What is meant by survey? Health info filled out by the patient? System usability filled out by any user?,Patient Encounter and Health Data
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,"The NETCCN delivers point of need telemedicine solutions that allow remote experts to provide
+advice to patients or local caregivers anywhere and at any time. NETCCN platforms will be able
+to collect data about these encounters, as well as survey data and medical device, wearable, or
+passive sensor data to better understand care needs in context (i.e., what patients and local
+caregivers need from remote experts and how best to provide it), casualty problems, and medical
+system resources.","encounter data, survey data (does this mean user feedback survey? Or questionnaire data?), device, wearable, and sensor data (type, measurement data, settings, location/placement), health problems, NETCCN system reasource info","Patient Encounter and Health Data
+
+Patient Monitoring Information (medical devices and sensors, non-medical devices and sensors)
+
+System Utilization Info
+
+Resource capacity, utilization, and management"
+NETCCN Phase 2 RPP,11,"allow the NETCCN system(s) to provide additional data for remote visualization, and record/archive health information that will be leveraged to develop and improve artificial intelligence (AI)/machine learning (ML) capabilities to aid future decision making and facilitate remote control of medical devices, as appropriate.  ",export patient health information to develop AI/ML capabilities,"Patient Encounter and Health Data
+
+System Connectivity/Interface Info"
+NETCCN Phase 2 RPP,15,"d. Enhancement of sharing of patient care responsibilities by care team members (physical and remote) to ensure simple, seamless and understandable workflow handoffs.  These workflow handoffs are the ability for one NETCCN clinical team to share or handoff care responsibilities of a patient or group of patients within a virtual ward to another clinical team without additional training.  These NETCCN system refinements are inclusive of both clinical shift changes and the need for additional clinical care team support services.  ","associate care team member with the data being captured (make sure we know who did what to the patient, or who recorded what) to manage workflow handoffs","Patient Encounter and Health Data
+
+System User Info"
+NETCCN Phase 2 RPP,6,"Phase 1 Effort: Capability for real time, essential clinical encounter documentation (SOAP note or similar concept) as well as asynchronous/synchronous data collection and reporting","Encounter documentation, type of data collected how it was collected (manual, asynchronous, synchronous), reports, ","Patient Encounter and Health Data
+
+System Utilization Info
+
+System Connectivity/Interface Info
+
+"
+NETCCN Phase 2 RPP,19,"h. Enhancement of integrated information sharing and reporting capabilities, including but not limited to:
+• Reporting and data visualization tools of both patient and system level data are crucial for information sharing, dissemination of consensus best practice recommendations, measures of system stress, and rapid reallocation of resources
+• Exporting patient level data to existing electronic medical records (EMRs) and/or personal health records (PHRs) when resources allow in accordance with HL7, FHIR and/or other applicable standards.
+","patient health information, system ""health"" information - resource allocation, utilization, and capacity. 
+
+Information about system level data reports generated/shared - when, who, format
+
+Information about patient data exports - where into was exported, in what format (HL7, etc)","Patient Encounter and Health Info
+
+System Connectivity/Interface Info"
+NETCCN Phase 2 RPP,21,"j. Integration of remote patient monitoring within and outside of traditional hospital settings.  These capabilities must be scalable beyond the traditional healthcare environment to account for large scale patient volumes.  Furthermore, these remote patient monitoring capabilities must account for the sensing capabilities embedded into existing mobile devices (accelerometers, gyroscopes, microphones, cameras, GPS locators, proximity etc.) as well as increasingly available, wearable physiologic monitoring technologies.  NOTE: Specific home monitoring device selection(s) will be made within Task 1 of the Phase 2 NETCCN effort.","patient monitoring information - location of patient, sensor type, monitoring/measurement data.","Patient Monitoring Information (medical devices and sensors, non-medical devices and sensors)"
+NETCCN Phase 2 RPP,22,"k. Integration of existing patient monitoring from selected medical devices, including, but not limited to physiological monitors, IV pumps, mechanical ventilators, and/or urimeters.  NOTE: Specific medical device selection(s) will be made within Task 1 of the Phase 2 NETCCN effort","medical device type, vendor, device settings, measurement data","Patient Monitoring Information (medical devices and sensors, non-medical devices and sensors)"
+NETCCN Phase 2 RPP,23,"l. Integration of existing remote control capabilities for physiologic monitors, IV pumps, and mechanical ventilators through the NETCCN system.  NOTE: Specific medical device selection(s) will be made within Task 1 of the Phase 2 NETCCN effort.","medical device type, vendor, device settings, measurement data, device software and standards used ","Patient Monitoring Information (medical devices and sensors, non-medical devices and sensors)"
+NETCCN Phase 2 RPP,24,"m. Integration of existing autonomous system capabilities to provide safe medication delivery and mechanical ventilation when appropriate (e.g. in the absence of appropriate local medical expertise).  Examples of these autonomous capacities, include, but are not limited to (i) providing safe medication delivery (enteral or parenteral [particularly continuous IV analgesia, sedation and blood pressure maintenance]) and (ii) mechanical ventilation to maintain safe oxygenation, ventilation and perfusion.  NOTE: Specific autonomous system capabilities will be made within the Task 1 of the Phase 2 NETCCN effort.","vitals related to ensuring safety (e.g. oxygen levels), medical device type, vendor, device settings, measurement data, device software and standards used, algorithm used","Patient Monitoring Information (medical devices and sensors, non-medical devices and sensors)"
+NETCCN Phase 2 RPP,Task 3A,"• Incorporation a minimum of one non-medical device to provide continuous, real time patient monitoring through an interface that is compatible with Medical Device Interoperability Reference Architecture (MDIRA)/ Medical Device Plug and Plan (MD PnP) [ANSI/AAMI 2700-1: 2009] standards.  Note this non-medical device cannot be that duplicative with other NETCCN performer development efforts.","non-medical device type, interface/standard used, monitoring info","Patient Monitoring Information (medical devices and sensors, non-medical devices and sensors)"
+NETCCN Phase 2 RPP,Task 3C,"• Incorporation a minimum of one existing medical device to through an interface that is compatible with Medical Device Interoperability Reference Architecture (MDIRA)/ Medical Device Plug and Plan (MD PnP) [ANSI/AAMI 2700-1: 2009] standards.  This medical device integration, under appropriate conditions (e.g. when local expertise is unavailable) a remote expert can identify alerts from the medical device, initiate device actions and/or adjust settings.  Examples could include, but are not limited to: 
+? Remote identification of a low blood pressure alarm on a medical device monitor and remotely initiating a new measurement 
+? Remote Identification of IV pump alerts like “air in line” so as to silence the alarm and notify local caregivers and/or increase or decrease IV medication drip rate/dose 
+? Remote changes in ventilator settings like PEEP, PfO2, Tidal Volume or frequency.  
+NOTE: this medical device cannot be that duplicative with other NETCCN performer development efforts.
+","medical device type, interface/standard used, device alerts, settings, device measurements","Patient Monitoring Information (medical devices and sensors, non-medical devices and sensors)"
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,"Add additional hospital-like medical device capabilities to the NETCCN “virtual hospital”
+platform that will enhance the scope and impact of tele-critical care support to resourcelimited
+environments. By adding these advanced capabilities through the connected
+telemedicine base platform, resource limitations can be addressed to increase capability
+and capacity of healthcare delivery during a disaster. By accelerating development and
+inclusion of medical devices that utilize interoperable, remote control, and autonomous
+technologies, we can augment the knowledge, skills, and abilities of local caregivers.","medical device type, vendor, interface/standard","Patient Monitoring Information (medical devices and sensors, non-medical devices and sensors)"
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,"TATRC’s NETCCN platform aims to support the extension of high-quality, “anywhere to
+anywhere” intensive care to locations that lack adequate critical care expertise and resources
+necessary for care of COVID-19-related illnesses. TATRC believes that giving critical care providers
+and response teams the ability to deploy, monitor, and control devices (and networks of devices)
+remotely using “light” hardware solutions (e.g., mobile devices or inexpensive computing
+platforms), will allow remote experts to improve the delivery of advanced critical care, optimize
+resource utilization, and increase the safety of both patients and staff.","medical device ordering/request information, SA into medical device deployment and use, monitoring data, settings, control options/parameters","Patient Monitoring Information (medical devices and sensors, non-medical devices and sensors)"
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,"The addition of remote
+monitoring, remote control, and more advanced capabilities, such as closed loop and
+autonomous algorithms, may further enhance care delivery to more patients during surge
+conditions, especially when network resources are fragile. Adding these “hospital”-type
+capabilities to NETCCN virtual wards represents an important step in advancing the overall
+NETCCN goal.","closed loop / autonomous algorithm version, medical device type, vendor, ID","Patient Monitoring Information (medical devices and sensors, non-medical devices and sensors)"
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,Add or enhance remote control capabilities;,"settings, control mechanism (manual, remote, automated)","Patient Monitoring Information (medical devices and sensors, non-medical devices and sensors)"
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,"Provide data from ventilators and/or IV pumps to enable use by the NETCCN ecosystem
+for remote monitoring of these devices and of the patient;","medical device measurement/monitoring data, setting info","Patient Monitoring Information (medical devices and sensors, non-medical devices and sensors)"
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,"Utilize standards to enable harmonization of data from the device(s) developed in this
+program with data available from other devices modified as part of the NETCCN project;",standards used,"Patient Monitoring Information (medical devices and sensors, non-medical devices and sensors)
+
+System Connectivity/Interface Info"
+NETCCN Phase 2 RPP,14,c. Enhancement and integration of  NETCCN clinical coverage models to support virtual wards and their assigned workloads,clinical model used (reference model used) during virtual ward creation and workload assignments,"Resource capacility, utilization, and management"
+NETCCN Phase 2 RPP,Task 3A,• Pilot novel tools/algorithms that optimally recommend and or assign remote expert teams and resources into the NETCCN virtual ward functions,"virtual ward info, resource info, capacity, number of patients, algorithm/tool used for recommendations","Resource capacility, utilization, and management"
+NETCCN Phase 2 RPP,20,"i. Aggregation of data from the NETCCN system(s) and connective devices for creating new visualizations, algorithms (logical, ML and/or AI) that help follow individuals and make optimal decisions regarding the prioritization of action and resource allocation:
+• Local caregiver/care team synchronization
+• Remote expert/expert care team synchronization
+• Local hospital or prehospital monitoring, support, resourcing and supply synchronization
+• State and regional healthcare system predictive planning, resourcing, and supply synchronization
+• Regional or national physical and virtual support to achieve best outcomes for all.
+• Aggregation and storage of patient level data for later analysis.  
+","local caregiver/care team information, remote expert/expert care team information, information about resources and supplies at local hospitals and pre-hospital (e.g. # beds, PPE, etc), aggregated patient data.","Resource capacility, utilization, and management
+
+Hospital /facility capacity information (baseline without NETCCN)
+
+Aggregated Patient Encounter and Health Info"
+NETCCN Phase 1 Task 2 MEC/MVP,4,The NETCCN system will help organize a tiered staffing model The NETCCN system will help organize and accommodate multiple caregivers and their shift schedules,Organize tiered staffing model to organize and accomodate multiple caregivers and their shift schedules: manage staffing and schedules. Assign tiers of staff to wards.,"Resource capacity, utilization, and management"
+TiDE Learning Accelerator MPP,Tech Reqts,"Using real-time data obtained from the NETCCN – from system resource information, health records, ecologic momentary assessments, real-time vital signs monitoring of patients at home and in the hospital – as well as other federal, state, academic, and open source (e.g. internet) information sources, the Government is seeking to establish a continuous learning system for iteratively improving disaster healthcare support and to identify lessons learned in the civilian context for use in optimizing military healthcare during large scale combat operations (e.g., massive numbers of casualties).","system resource information, patient health records, ecological momentary assessments (Ecological momentary assessment (EMA) involves repeated sampling of subjects' current behaviors and experiences in real time, in subjects' natural environments. EMA aims to minimize recall bias, maximize ecological validity, and allow study of microprocesses that influence behavior in real-world contexts), vitals, where vitals are captured (at home, in hospital)","Resource Capacity, Utilization, and Management Info
+
+Patient Encounter and Health Data"
+TiDE Learning Accelerator MPP,Tech Reqts,"TATRC expects to adapt NETCCN platforms and capabilities for military operational and garrison
+medicine in support of both disaster and large-scale combat operations and subsequent combat
+casualty care. In anticipation, TATRC has established an overall strategy to collect data and bring
+together key experts to optimize clinical outcomes and resource utilization in response to
+disasters, public health emergencies, and large-scale combat.","baseline of clinical outcomes and resource utilization, diaster event name/ID, summary of patient outcomes, # patients supported, # of caretakers and expert clinicians supported,","Resource Capacity, Utilization, and Management Info
+
+Patient Encounter and Health Data
+
+Aggregated Patient Encounter and Health Data
+
+System Utilization Info"
+TiDE Learning Accelerator MPP,Components,"A TATRC Data Commons to collect research data from the NETCCN performers, surveys
+and other data collection conducted through NETCCN platforms, and additional data sets,
+as available, to supplement research efforts.","NETCCN encounter information, user surveys/feedback, NETCCN system info (utilization, capacity)","Resource Capacity, Utilization, and Management Info
+
+Patient Encounter and Health Data
+
+System Usability Info
+
+System Utilization Info"
+NETCCN Phase 2 RPP,1,"Support rapid enhancement, deployment and testing of NETCCN - a cloud based, low resource, standalone health information management system for the creation and coordination of flexible and extendable “virtual critical care wards.”","Virtual Critical Care Ward info - when it was created, by whom, who is assigned to it (patients and care team)","Resource capacity, utilization, and management
+
+Patient and Clinical Flow"
+NETCCN Phase 1 Task 2 MEC/MVP,12,The NETCCN system has clinical staffing and workflow documented and demonstrated,"Home and hospitalized patient workflows. -- inpatient, outpatient, home patient; type of facility (rural hospital, field hospital, residential care, virtual hub/hospital).","Resource capacity, utilization, and management
+
+System Deployment Info (NETCCN Deployment Info)"
+NETCCN Phase 1 Task 2 MEC/MVP,4,"As the system evolves to the next phase, the application design is flexible enough to accommodate new roles, permissions, functions, care paradigms ","Roles info, provider reference model","Resource capacity, utilization, and management
+
+System User Info"
+NETCCN Phase 2 RPP,8,Phase 1 Effort: Capability to export clinical data through PDF reports,Metrics on PDF report generation,System Connectivity/Interface Info
+NETCCN Phase 2 RPP,26,o. Deliver de-identified patient data and system data to the Data Commons to support research and continuous learning toward the development of models for the operational use cases.,logs of when and how much data was sent to the commons,System Connectivity/Interface Info
+NETCCN Phase 2 RPP,Task 1A,• Coordinate with the NETCCN C-PAM performer (when awarded) and plan means to send data to and extract data from this future data repository.,logs of when and how much data was sent to / received from C-PAM,System Connectivity/Interface Info
+NETCCN Phase 2 RPP,Task 1A,• Coordinate with the NETCCN Learning performer team (when awarded) and/or Data Commons team to plan  the means to send and extract data from this data repositories,logs of when and how much data was sent to / received from the data commons or TLA teams,System Connectivity/Interface Info
+NETCCN Phase 2 RPP,Task 3A,• Develop an application programming interface (API) to allow for automated data exchange with designated data repositories (e.g. Data Commons),"API version, data exchange metrics (when, what, how much)",System Connectivity/Interface Info
+NETCCN Phase 2 RPP,Task 3B,"• Expand the existing application programming interface (API) to allow for automated, bi-directional data exchange with designated data repositories as required (e.g. C-PAM and Learning Team/Data Commons)","API version, data exchange metrics (when, what, how much), data sender, data recipient",System Connectivity/Interface Info
+NETCCN Phase 2 RPP,Task 3C,"• Expand the existing application programming interface (API) to allow for  automated, bi-directional data exchange with designated data repositories as required (e.g. NETCCN C-PAM, Data Commons and Learning Team)","API version, data exchange metrics (when, what, how much), data sender, data recipient",System Connectivity/Interface Info
+NETCCN Phase 2 RPP,Task 3C,"• Develop and demonstrate the ability to support procedures (e.g. ultrasound, vascular access and intubations) remotely and capture associated data streams.  ","remote procedure type, measurement data",System Connectivity/Interface Info
+C-PAM RPP,Task 3C," support data and information sharing and application functions necessary to support the coordination of multiple vendors’ National Emergency Tele-Critical Care Network (NETCCN) platforms for local, regional and national COVID and disaster care","sender and receiver information, volume and type of information shared",System Connectivity/Interface Info
+C-PAM RPP,Scope,"• Identify and describe unique C-PAM data and information sharing and application functions necessary to support the coordination of multiple vendors’ NETCCN platforms for local, regional and national COVID and disaster care (i.e., C-PAM requirements)",,System Connectivity/Interface Info
+C-PAM RPP,Scope,"• Gain agreement on prioritization of minimum C-PAM requirements and functions for an initial prototype for rapid availability, testing and deployment and a roadmap of future enhancements (i.e., C-PAM roadmap); ",,System Connectivity/Interface Info
+TiDE Learning Accelerator MPP,Components,"Funding for NETCCN performers to collaborate with TLA performers to prioritize and
+conduct research to develop algorithms, analytics and AI for incorporation into NETCCN
+platforms, the Cross-Platform Application Module (CPAM) or elsewhere. The CPAM will
+support data, information, and application sharing necessary to support the extension of
+high-quality, “anywhere to anywhere” intensive care to locations that lack adequate
+critical care expertise and resources necessary for care of COVID-19-related illnesses","Data source (C-PAM, NETCCN performer system, Data Commons, other)",System Connectivity/Interface Info
+NETCCN Phase 2 RPP,13,b. Enhancement and integration of novel hands free functionality with the NETCCN mobile device interfaces,capture data input method (hands-free vs manual) - might want to use to check for accuracy.,"System Connectivity/Interface Info
+
+Patient Encounter and Health Info"
+NETCCN Phase 2 RPP,Task 3B,"• Develop and demonstrate novel hands free documentation solutions that facilitate care documentation during high stress, task saturated, mass casualty/disaster scenarios.",capture data input method (hands-free vs manual) - might want to use to check for accuracy. Time to document encounters (to measure improvement in manual vs. hands-free),"System Connectivity/Interface Info
+
+Patient Encounter and Health Info"
+TiDE Learning Accelerator MPP,Guiding Principles,"Disasters create the need for real-time clinical data
+collection, analysis, and reporting while simultaneously disrupting typical data streams and
+communication flow. Advanced medical technologies (e.g., telemedicine, robotics, autonomous
+systems, remote controlled devices, artificial intelligence, autonomous re-supply) are essential
+to addressing this vulnerability by increasing the capability and capacity of the local healthcare
+systems to rapidly innovate and respond.","timeliness of data collection, analysis and reporting. Advanced technology type, baseline and change in capability and capacity of local healthcare systems","System Connectivity/Interface Info
+
+System Info"
+TiDE Learning Accelerator MPP,Guiding Principles,"AI and machine learning techniques can be used to analyze
+data obtained from advanced medical technologies during disaster medical support to help
+optimize medical response in real-time for that disaster, but also to produce insights that will be
+useful to address future scenarios.","advanced medical technology data (type, version, data generated or measured)","System Connectivity/Interface Info
+
+System Info"
+NETCCN Phase 2 RPP,9,"Phase 1 Effort: Additional capability for real time and/or asynchronous exchange with electronic health records (EHRs), Health Information Exchanges (HIEs) and/or other applicable computerized physical order entry (CPOE) systems via HL7, FHIR and/or other applicable standards","Type of data exchange (real-time or asynchronous), where data was exchanged with (HER, CPOE), format of exchange (HL7, FHIR), volume of data exchanged.","System Connectivity/Interface Info
+
+System Utilization Info"
+NETCCN Phase 1 Task 2 MEC/MVP,1,NETCCN system will have a Mobile App interface for end users with an optional web portal interface.,NETCCN system application type/platform (mobile vs. web-based) and version number,System Info
+NETCCN Phase 1 Task 2 MEC/MVP,9,NETCCN system is at least HIPAA compliant (additional cyber security features moving towards FEDRAMP and HITRUST are preferred),System Compliance Data,System Info
+NETCCN Phase 1 Task 2 MEC/MVP,10,"If any components of the NETCCN platform require FDA approval, this is provided",System Approvals/Compliance Data,System Info
+NETCCN Phase 2 RPP,25,n. Obtain a FEDRAMP Agency Authorization and Cyber  Security Maturity Model Certification (CMMC) for the NETCCN system.,Certification Info,System Info
+C-PAM RPP,Scope,"• Support and maintain C-PAM as part of the delivery of NETCCN research and services per direction of TATRC, ASPR and other disaster managers.",C-PAM version number,System Info
+NETCCN Phase 2 RPP,12,a. Integration of alternative language support for NETCCN end user interfaces (e.g. Spanish language support) and/or ad hoc translation when needed ,"capture language used, capture original language plus translation","System Info
+
+Patient Encounter and Health Data"
+NETCCN Phase 2 RPP,Task 3A,• Incorporate a Spanish language option for the NETCCN patient interface,system language used,"System Info
+
+Patient Encounter and Health Data"
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,"the MDIA topic area will focus on the acceleration of the
+availability of remotely controlled ventilators and/or IV pumps for use by clinicians delivering
+tele-critical care through NETCCN platforms to COVID patients. Specifically, this program aims to
+accelerate the availability and integration into NETCCN platforms of “hardware and/or software
+modifications implementing the capability for remote monitoring and remote adjustment of
+parameters (i.e., adjustment of parameters by trained health care providers from outside an
+isolation unit to avoid unnecessary exposures)”
+(https://www.fda.gov/media/136318/download). The objective is, in part, to enhance medical
+devices to incorporate native interoperable functions.","hardware and software version info, vendor info, device type, settings/parameters, interface/standard version","System Info
+
+Patient Monitoring Information (medical devices and sensors, non-medical devices and sensors)"
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,"In order to be responsive to this focus area, Offerors shall propose modification of existing
+devices to incorporate new functions related to:
+?? Device interoperability (i.e., the ability to safely, securely, and effectively exchange and
+use information among one or more devices, products, technologies, or systems –
+https://www.fda.gov/medical-devices/digital-health-center-excellence/medical-deviceinteroperability)
+?? Visualization of device data through NETCCN platforms;
+?? Remote control of devices; and
+?? Base interfaces on standardized and/or fully disclosed specifications to the extent
+possible so that devices can be used with vendor-agnostic information displays and
+control interfaces.","medical device measurement/monitoring data, setting info, device type, vendor, software version, interface/standard, setting type (manual, remote, automated), regulatory and security info.","System Info
+
+Patient Monitoring Information (medical devices and sensors, non-medical devices and sensors)"
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,"Participation in simulation and real-world testing of modified devices, as applicable;",device modifications made,"System Info
+
+Patient Monitoring Information (medical devices and sensors, non-medical devices and sensors)"
+C-PAM RPP,Task 3C,"enable the ability of the current four heterogeneous NETCCN performers (i.e., different technical platforms and different clinical networks) and potential additional platforms and clinical networks to work together to deliver tele-critical care at scale","NETCCN performer/system name, version, platform used, clinican network name/system info","System Info
+
+System Connectivity/Interface Info
+"
+C-PAM RPP,Scope,• Integrate and harmonize NETCCN platform data from the four NETCCN performers to support delivery of data to the TATRC data commons and SUNet data hub per described formats.,"NETCCN performer/system name, version, platform used (provenance info)","System Info
+
+System Connectivity/Interface Info
+"
+TiDE Learning Accelerator MPP,Scope - Task 1,"Work with TATRC and NETCCN performers, key civilian stakeholders like ASPR,
+Federal Emergency Management Agency (FEMA) and Society of Critical Care Medicine
+(SCCM), and military stakeholders like the Virtual Medical Center, Joint Tele-Critical Care
+Network, the Medical Capabilities Development and Integration Division (MedCDID) and
+Combatant Commands (COCOMS), to establish structural, process and outcome
+performance measures for technology support of healthcare during COVID, other
+disasters and large-scale combat operations (LSCO). The goal is to establish a core set of
+measures that can be tracked and improved upon from disaster to disaster; and from
+disaster care to LSCO","performance measure type (structural, process, outcome), performance measure, data needed for measure,.",System Performance Measures
+TiDE Learning Accelerator MPP,Guiding Principles,"Advanced medical technologies (e.g., telemedicine, clinical decision
+support, robotics, autonomous systems, remote controlled devices, artificial intelligence,
+autonomous re-supply) used during natural or man-made disasters can decrease casualty
+numbers and increase capability and capacity of local healthcare systems to improve patient
+outcomes and resource utilization compared to historical norms.","type of advanced medical technology used, outcome (# casualties), # patients, # providers, capacity, resource utilizaiton","System Performance Measures
+
+System Info
+
+System Utilization
+
+System Connectivity/Interface Info"
+NETCCN Phase 2 RPP,2,"rapidly, iteratively and collaboratively prototype, test and refine NETCCN capabilities and data visualization solutions that support local, regional and ultimately, national COVID-19 care and situational awareness.",data to support situational awareness,"System Situational Awareness
+
+Resource capacity, utilization, and management"
+NETCCN Phase 1 Task 2 MEC/MVP,4,The NETCCN system will provide a mechanism to augment consultative care with preliminary training/education capabilities (of caregivers [local and remote] and patients),Caregiver and Patient training and education - on giving care/treatment (vs. system training/ed),System Training (caregiver and patient)
+NETCCN Phase 1 Task 2 MEC/MVP,14,"The NETCCN system has a just-in-time end user training plan for clinical, technical and administrative end-users that has been tested and is ready and available for use","System training information - Training survey responses, requests for help",System Training Info
+NETCCN Phase 2 RPP,Task 2A,• Conduct initial and refresher NETCCN training on NETCCN existing and new functions and features as required,"training type (initial, refresher), software version being trained, training feedback",System Training Info
+NETCCN Phase 1 Task 2 MEC/MVP,7,NETCCN mobile app provides a means to collect survey data from appropriate end users,What is meant by survey? Health info filled out by the patient? System usability filled out by any user?,System Usability Info
+C-PAM RPP,Scope,"• Formulate and conduct technical and simulation (scenario) testing to assess the operability and usability of the C-PAM, its data views and functions, completeness of C-PAM functions and other aspects of the C-PAM readiness for use in tele-critical care of patients (i.e., C-PAM prototype testing);","usability information - version of CPAM, user feedback. Accuracy and completeness of information.",System Usability Info
+TiDE Learning Accelerator MPP,Scope - Task 3,"In partnership with TATRC and NETCCN performers, share research
+outputs and provide recommendations on disaster medical support system
+improvements after a disaster response or disaster simulation event, which may be used
+to later inform and/or refine prototypes currently in use or under development.",research findings and recommendastion on improving diaster medical support systems,System Usability Info
+TiDE Learning Accelerator MPP,Scope - Task 2,"Work with TATRC and NETCCN performers to identify, prioritize, conduct and
+implement research projects/activities that seek to understand the challenges and
+opportunities that technology like the NETCCN have to improve the efficiency,
+effectiveness and impact outcomes in civilian disaster care and/or military operational
+medicine. Deliverables may include the development (and submission) of abstracts for
+publication as appropriate;","user surveys and feedback on NETCCN systems, NETCCN system ID, version number, user type. Quantitative measurements of things like how long it took to document encounter information, # of errors, # of help desk calls, # issues submitted.","System Usability Info
+
+System Info
+
+System Support Info"
+TiDE Learning Accelerator MPP,Guiding Principles,"Lessons learned from one disaster response will enhance medical care
+and resource management during subsequent disaster responses. For example, large-scale
+disasters causing mass casualty (MASCAL) scenarios in the civilian medical system can be used to
+optimize medical support using advanced medical technologies during large scale combat
+operations. Key clinical questions must be identified before the fact, as well as performance
+metrics that can be used to evaluate responses. Lessons learned about delivering medical
+support to large scale disasters causing MASCAL scenarios in the civilian medical system can be
+used to optimize medical and logistic support using advanced medical technologies during large
+scale combat operations.","feedback, outcomes, etc. from each diaster response, performance metrics, ","System Usability Info
+
+System Utilization Info
+
+System Performance Measures
+
+Resource Capacity, Utilization, and Management"
+NETCCN Phase 1 Task 2 MEC/MVP,6,"NETCCN mobile app provides an end user license agreement (EULA) and means to digitally consent appropriate end users for research studies
+","EULA agreement and consent info associated with patient ID, date of agreement.",System User Info
+NETCCN Phase 1 Task 2 MEC/MVP,8,NETCCN system provides a means to output survey and other applicable research project data,"Volume and type of data exported outside the NETCCN system (e.g. EHR systems research systems, dashboards)",System Utilization Info
+NETCCN Phase 1 Task 2 MEC/MVP,11,The NETCCN system solution set will be available for testing of bandwidth usage and to assess resiliency for interrupted communications,Volume of data transferred per day?,System Utilization Info
+NETCCN Phase 2 RPP,5,"Phase 1 Effort: Clinician facing web portal and/or mobile based application (goal is availability on every device) to support clinical and operational situational awareness and visualization of individual patients, groups of patients and their data, and care team groups",Access metrics on different types of devices? What information is being viewed or accessed and by whom?,System Utilization Info
+NETCCN Phase 2 RPP,Task 2A,• Expand remote care provider participating to ensure scaling of the NETCCN system(s) ,"number of remote care providers using the system, location of remote care provider",System Utilization Info
+NETCCN Phase 2 RPP,Task 3A,• Incorporation of a minimum of one decision support tool and/or visualization tool into the NETCCN system(s) that adds value to delivering tele-critical care. NOTE: This tool should not be duplicative with other NETCCN performer development efforts.,"decision support tool type, version, input data, rationale",System Utilization Info (use of features)
+TiDE Learning Accelerator MPP,Tech Reqts,"bring together the TLA performer(s) to be awarded under this upcoming RPP with NETCCN performers, TATRC and key stakeholders to identify and prioritize research needs to improve tele-critical care for COVID through NETCCN and to provide recommendations on disaster medical support system improvements after a disaster response or disaster simulation event.","NETCCN performance measurements, diaster event name/ID, ","System Utilization Info
+
+NETCCN Deployment Info"
+NETCCN Phase 2 RPP,Task 2B,• Expand remote care provider participating to ensure scaling of the NETCCN system(s),,"System Utilization Info
+
+Resource capacility, utilization, and management"
+C-PAM RPP,Task 3C,"support the addition of capabilities to the NETCCN platform and study its deployment on a local, regional and national basis for COVID and other disasters","deployment metrics (where, how many, utilization)","System Utilization Info
+
+Resource capacility, utilization, and management"
+NETCCN Phase 2 RPP,4,"Phase 1 Effort: Secure, mobile communications capabilities, including synchronous audio/video, asynchronous messaging, and in some cases, access to continuous physiological monitoring","Metrics on number of synchronous audio and video comms, metrics on number of asynchronous messages, metrics on number and use of connections to physiological monitoring. Quality of comms, timeliness of comms/messaging, accuracy of data collection through physiological monitoring.","System Utilization Info
+
+System Quality Info
+
+System Connectivity/Interface Info"
+NETCCN Phase 1 Task 2 MEC/MVP,2,"NETCCN system end users can download mobile app and/or access web portal (as applicable), register and authenticate their role:
+Multiple patients can download/access and register to request/receive help asynchronously (text/e-mail) or synchronously (phone/video) using a mobile device via a mobile app (PATIENT)
+Family members of patients can download/access and register to request/receive help asynchronously (text/e-mail) or synchronously (phone/video) using a mobile device via a mobile app (FAMILY CARE GIVER). Multiple local caregivers can download/access and register themselves and multiple patients. Multiple remote experts can download/access and register themselves in order to provide remote support using a mobile device and/or web portal (REMOTE EXPERT)in order to request/receive help using a mobile device via a mobile app (LOCAL CARE GIVER)","Information about how many patients, caregivers, clinicians are actively logged in and using the system, what module they are using (registration, consult, etc.). Number of asynchronous patient-provider and provider-provider comms, number of synchronous patient-provider and provider-provider comms. Response time: time between a request and response in asynchronous comms.
+
+Imformation about the help/support features of the NETCCN system.","System Utilization Info
+
+System Support Info"
+NETCCN Phase 1 Task 2 MEC/MVP,3,"NETCCN System end users can identify and connect with current needs/demands.
+Once registered, patients and/or family members of patients can directly request help from NETCCN healthcare providers (“local” or “remote”)
+Once registered and professional licensure validated, local care givers and remote experts can identify and interact synchronously (e.g. voice and video) and asynchronously (e.g. text messaging and email) with patients and associated care team members within the NETCCN system",Same as above,
+NETCCN Phase 2 RPP,7,Phase 1 Effort: Cloud based information storage,,
+NETCCN Phase 2 RPP,10,enhance and scale the NETCCN resource for regional and national disaster response include incorporating new technologies and capabilities into the existing NETCCN ecosystems in a coordinated and collaborative fashion,,
+NETCCN Phase 2 RPP,Task 1A,"• Coordinate with the FFRDC MITRE Device Interoperability and Autonomy Coordination Center (DIAAC) team and plan for future medical device integration of into the NETCCN ecosystem, as required ",,
+NETCCN Phase 2 RPP,Task 2B,• Conduct initial and refresher NETCCN training on NETCCN existing and new functions and features as required though dedicated training environment,training environment info,
+NETCCN Phase 2 RPP,Task 2B,• Provide a demonstration environment for government assessments and briefings.,demonstration environment info,
+NETCCN Phase 2 RPP,Task 3A,• Develop a data visualization portal interface to provide continual data reporting from the NETCCN system instance(s),,
+NETCCN Phase 2 RPP,Task 3A,• Establish a dedicated training instance of the NETCCN system(s),,
+NETCCN Phase 2 RPP,Task 3A,• Establish a demonstration instance of the NETCCN system(s),,
+C-PAM RPP,Task 3C,"support the extension of high-quality, “anywhere to anywhere” intensive care to locations that lack adequate critical care expertise and resources necessary for care of COVID-19-related illnesses",,
+C-PAM RPP,Scope,"• Rapidly develop an MVP (minimum viable platform) prototype C-PAM, including required cloud-hosting, network, privacy and security controls (i.e., C-PAM prototype development);",,
+C-PAM RPP,Scope,• Incorporate findings from C-PAM prototype testing to develop C-PAM V1.0 for deployment and use as part of NETCCN;,,
+TiDE Learning Accelerator MPP,Components,"A Research Portal (currently under development) to provide access to data (and tools for
+research and data science) in the TATRC data commons for use by the TiDE Learning
+Accelerator performers and partners",,
+TiDE Learning Accelerator MPP,Components,"Funding for NETCCN performers to contribute data, share insights and challenges
+regarding delivery of tele-critical care for COVID and other disasters with TATRC and TLA
+performers;",,
+TiDE Learning Accelerator MPP,Components,"Funding for NETCCN performers to collaborate with TLA performers to prioritize and
+conduct research and data science projects and findings / outputs;",,
+TiDE Learning Accelerator MPP,Guiding Principles,"TLA performers will be expected to structure and perform research and data science projects in
+such a way as to deliver insight to TATRC, NETCCN performers, and key stakeholders within 6-12
+months. In addition to the TATRC data commons (and associated tools) and data available from
+NETCCN performers, TLA performers may – as part of this project – identify and use additional
+sources of public and private data and develop or use data infrastructures and associated analytic
+and data science environments necessary to deliver measurable improvements to NETCCN care
+delivery and operations.",public and private data sources from TLA performers,
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,"This topic is focused on accelerating mechanical ventilator and/or infusion pump
+interoperability, remote control and integration into NETCCN (National Emergency Tele-
+Critical Care Network) platforms in support of tele-critical care of COVID-19 patients.",,
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,"Establish project plans to modify devices to achieve the desired interoperability and
+autonomy capabilities and obtain regulatory clearance, if required, of the modified
+devices;",,
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,"Test and validate modified devices and capabilities to include means for the responsible
+organization to verify correct operation;",,
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,"Demonstrate device capabilities, including risk-management strategies and security
+controls related to remote control, in a pre-clinical testbed environment;",,
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,Integrate and incorporate devices into NETCCN platforms;,,
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,"Participate in the evaluation of devices and capabilities in the delivery of tele-critical care
+to COVID patients through NETCCN platforms for real-patient care.",,
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,"The DIACC will develop a set of materials necessary to facilitate and assist device manufacturers
+in developing, testing, validating and achieving applicable regulatory clearance of devices. In
+addition, the DIACC will coordinate work with NETCCN performers to integrate devices into
+NETCCN platforms.",,
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,Identification of candidate devices,,
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,"Participation in project planning and project roadmap development for device
+interoperability, remote control, future autonomy, and regulatory submission and
+review;",,
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,"Collaborate with other vendors, DIAC, FDA, and MD PnP on identifying medical device
+interface data sheets (MDIDS), using existing standards terminology where possible, to
+provide safe remote control",,
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,"Collaborate with other vendors on identifying disaster medicine exemplar remote control
+use cases, NETCCN platform common user interface, and safety assurance cases for
+remote device control. Offerors shall have a plan to obtain an Emergency Use
+Authorization (EUA) status from the U.S. Food and Drug Administration (FDA) in a disaster
+setting where expert resources are diminished and/or not available",,
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,"Development of materials necessary to adapt interoperability and device control
+standards and frameworks such as Integrated Clinical Environment (ICE) (ANSI/AAMI
+2700-1: 2019), AAMI Consensus Report: Emergency Use Guidance for Remote Control of
+Medical Devices (AAMI/CR511:202) and Medical Device Interoperability Reference
+Architecture (MDIRA",,
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,"Preparation of regulatory submissions, reviews and other activities",,
+Medical Device Interoperability and Autonomy (MDIA) RPP,Tech Reqts,"Collaboration with the DIACC, NETCCN performers and other TATRC performers to
+integrate devices into NETCCN platforms.",,
